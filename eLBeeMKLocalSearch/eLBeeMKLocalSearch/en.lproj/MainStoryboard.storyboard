@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--EL BeeMK Local Search View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="eLBeeMKLocalSearchViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="fsU-hq-tBX">
+                                <connections>
+                                    <outlet property="delegate" destination="2" id="CBE-Zn-PDW"/>
+                                </connections>
+                            </mapView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="P50-TK-vIg">
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="2" id="6F2-hb-Fd2"/>
+                                </connections>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fsU-hq-tBX" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="7dz-LX-eYr"/>
+                            <constraint firstItem="P50-TK-vIg" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="9pm-bQ-inb"/>
+                            <constraint firstItem="P50-TK-vIg" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="A39-Sg-r3b"/>
+                            <constraint firstItem="fsU-hq-tBX" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="NSo-Kt-sqV"/>
+                            <constraint firstItem="P50-TK-vIg" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="b8a-gU-shl"/>
+                            <constraint firstItem="fsU-hq-tBX" firstAttribute="top" secondItem="P50-TK-vIg" secondAttribute="bottom" type="default" id="iGr-im-trz"/>
+                            <constraint firstItem="fsU-hq-tBX" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="ms9-1U-fKp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="fsU-hq-tBX" id="QI8-gi-0Ct"/>
+                        <outlet property="searchBar" destination="P50-TK-vIg" id="M4D-mc-ytU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="eLBeeMKLocalSearchViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/eLBeeMKLocalSearchViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
+                <relationship kind="outlet" name="searchBar" candidateClass="UISearchBar"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
