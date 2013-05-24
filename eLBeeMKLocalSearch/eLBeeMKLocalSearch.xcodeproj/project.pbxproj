@@ -33,8 +33,8 @@
 		0559ED25174EFD44008ADAF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0559ED27174EFD44008ADAF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0559ED29174EFD44008ADAF3 /* eLBeeMKLocalSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eLBeeMKLocalSearch-Prefix.pch"; sourceTree = "<group>"; };
-		0559ED2A174EFD44008ADAF3 /* eLBeeLSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eLBeeLSAppDelegate.h; path = ../eLBeeLSAppDelegate.h; sourceTree = "<group>"; };
-		0559ED2B174EFD44008ADAF3 /* eLBeeLSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = eLBeeLSAppDelegate.m; path = ../eLBeeLSAppDelegate.m; sourceTree = "<group>"; };
+		0559ED2A174EFD44008ADAF3 /* eLBeeLSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eLBeeLSAppDelegate.h; sourceTree = "<group>"; };
+		0559ED2B174EFD44008ADAF3 /* eLBeeLSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eLBeeLSAppDelegate.m; sourceTree = "<group>"; };
 		0559ED2D174EFD44008ADAF3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0559ED2F174EFD44008ADAF3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0559ED31174EFD44008ADAF3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
