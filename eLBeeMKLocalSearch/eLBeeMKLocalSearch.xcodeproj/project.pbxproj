@@ -35,9 +35,9 @@
 		0559ED29174EFD44008ADAF3 /* eLBeeMKLocalSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eLBeeMKLocalSearch-Prefix.pch"; sourceTree = "<group>"; };
 		0559ED2A174EFD44008ADAF3 /* eLBeeLSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eLBeeLSAppDelegate.h; path = ../eLBeeLSAppDelegate.h; sourceTree = "<group>"; };
 		0559ED2B174EFD44008ADAF3 /* eLBeeLSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = eLBeeLSAppDelegate.m; path = ../eLBeeLSAppDelegate.m; sourceTree = "<group>"; };
-		0559ED2D174EFD44008ADAF3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		0559ED2F174EFD44008ADAF3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		0559ED31174EFD44008ADAF3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0559ED2D174EFD44008ADAF3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		0559ED2F174EFD44008ADAF3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		0559ED31174EFD44008ADAF3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		0559ED34174EFD44008ADAF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0559ED41174EFEB2008ADAF3 /* eLBeeMKLocalSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eLBeeMKLocalSearchViewController.h; sourceTree = "<group>"; };
 		0559ED42174EFEB2008ADAF3 /* eLBeeMKLocalSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eLBeeMKLocalSearchViewController.m; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				0559ED40174EFEA5008ADAF3 /* Classes */,
-				0559ED4C174F0B75008ADAF3 /* Images */,
+				0559ED4D174F1443008ADAF3 /* Images */,
 				0559ED22174EFD44008ADAF3 /* Supporting Files */,
 				0559ED33174EFD44008ADAF3 /* MainStoryboard.storyboard */,
 			);
@@ -129,14 +129,14 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		0559ED4C174F0B75008ADAF3 /* Images */ = {
+		0559ED4D174F1443008ADAF3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
 				0559ED2D174EFD44008ADAF3 /* Default.png */,
 				0559ED2F174EFD44008ADAF3 /* Default@2x.png */,
 				0559ED31174EFD44008ADAF3 /* Default-568h@2x.png */,
 			);
-			name = Images;
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
