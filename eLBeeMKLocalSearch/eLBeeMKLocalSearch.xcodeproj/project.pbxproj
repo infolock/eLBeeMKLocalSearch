@@ -22,6 +22,7 @@
 		0559ED47174F05BF008ADAF3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0559ED46174F05BF008ADAF3 /* QuartzCore.framework */; };
 		0559ED49174F05D0008ADAF3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0559ED48174F05D0008ADAF3 /* CoreLocation.framework */; };
 		0559ED4B174F05DD008ADAF3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0559ED4A174F05DD008ADAF3 /* MapKit.framework */; };
+		0559ED4F174F23BF008ADAF3 /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0559ED4E174F23BF008ADAF3 /* libc++abi.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		0559ED46174F05BF008ADAF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0559ED48174F05D0008ADAF3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		0559ED4A174F05DD008ADAF3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0559ED4E174F23BF008ADAF3 /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0559ED4F174F23BF008ADAF3 /* libc++abi.dylib in Frameworks */,
 				0559ED4B174F05DD008ADAF3 /* MapKit.framework in Frameworks */,
 				0559ED49174F05D0008ADAF3 /* CoreLocation.framework in Frameworks */,
 				0559ED47174F05BF008ADAF3 /* QuartzCore.framework in Frameworks */,
@@ -68,6 +71,7 @@
 		0559ED0F174EFD44008ADAF3 = {
 			isa = PBXGroup;
 			children = (
+				0559ED4E174F23BF008ADAF3 /* libc++abi.dylib */,
 				0559ED21174EFD44008ADAF3 /* eLBeeMKLocalSearch */,
 				0559ED1A174EFD44008ADAF3 /* Frameworks */,
 				0559ED19174EFD44008ADAF3 /* Products */,
@@ -331,6 +335,7 @@
 				0559ED3D174EFD44008ADAF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
