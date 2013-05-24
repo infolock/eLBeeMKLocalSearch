@@ -8,9 +8,4 @@ Hope this helps :neckbeard:
 
 ### ScreenShots
 
-
-![ScreenShot 1](/screenshots/screenshot1.png) 
-
-![ScreenShot 2](/screenshots/screenshot2.png) 
-
-![ScreenShot 3](/screenshots/screenshot3.png) 
+![ScreenShot 1](/screenshots/screenshot1.png) . ![ScreenShot 2](/screenshots/screenshot2.png) . ![ScreenShot 3](/screenshots/screenshot3.png)
