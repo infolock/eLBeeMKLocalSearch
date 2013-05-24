@@ -6,9 +6,11 @@ Just an example of how to use MKLocalSearch within a MKMapView.  This is an upda
 Hope this helps :neckbeard:
 
 
-ScreenShots
------------
+### ScreenShots
 
-![ScreenShot 1](/screenshots/screenshot1.png)
-![ScreenShot 2](/screenshots/screenshot2.png)
-![ScreenShot 3](/screenshots/screenshot3.png)
+
+![ScreenShot 1](/screenshots/screenshot1.png) 
+
+![ScreenShot 2](/screenshots/screenshot2.png) 
+
+![ScreenShot 3](/screenshots/screenshot3.png) 
