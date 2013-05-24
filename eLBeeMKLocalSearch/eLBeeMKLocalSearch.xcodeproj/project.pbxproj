@@ -101,8 +101,8 @@
 			children = (
 				0559ED40174EFEA5008ADAF3 /* Classes */,
 				0559ED4C174F0B75008ADAF3 /* Images */,
-				0559ED33174EFD44008ADAF3 /* MainStoryboard.storyboard */,
 				0559ED22174EFD44008ADAF3 /* Supporting Files */,
+				0559ED33174EFD44008ADAF3 /* MainStoryboard.storyboard */,
 			);
 			path = eLBeeMKLocalSearch;
 			sourceTree = "<group>";

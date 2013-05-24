@@ -38,10 +38,9 @@ typedef NS_ENUM(NSInteger, MapViewMode) {
 };
 
 @property (nonatomic, strong) CLLocationManager *locationManager;
-
+@property (nonatomic, strong) UserLocationFoundCallback foundUserLocationCallback;
 @property (nonatomic, strong) MapItemAnnotationObject *mapItemPin;
 @property (nonatomic, strong) MapItemAnnotationObject *lastMapItemPinTapped;
-@property (nonatomic, strong) UserLocationFoundCallback foundUserLocationCallback;
 @property (nonatomic, strong) NSMutableArray *mapItems;
 @property (nonatomic, strong) MKLocalSearch *localSearch;
 @property (nonatomic, strong) MKLocalSearchRequest *localSearchRequest;
@@ -70,10 +69,10 @@ static CGFloat userPosZoomLon = 0.2;
 -(void)viewDidLoad {
 
     [super viewDidLoad];
+
     self.mapView.delegate = self;
     self.locationManager = [[CLLocationManager alloc] init];
     self.locationManager.delegate = self;
-
     /**
      * This causes "...CGImageReadSessionGetCachedImageBlockData: readSession [...] has bad readRef..."
      * Did some reading on it... didn't find much except a bunch of theories, points to the bug reporter, etc.
@@ -87,6 +86,12 @@ static CGFloat userPosZoomLon = 0.2;
 -(void)didReceiveMemoryWarning {
 
     [super didReceiveMemoryWarning];
+
+    self.locationManager = nil;
+    self.foundUserLocationCallback = nil;
+    self.mapItemPin = nil;
+    self.lastMapItemPinTapped = nil;
+    self.mapItems = nil;
     self.localSearch = nil;
     self.localSearchRequest = nil;
 }
@@ -95,7 +100,6 @@ static CGFloat userPosZoomLon = 0.2;
 #pragma mark -
 #pragma mark MKMapKit Methods
 #pragma mark -
-
 
 #pragma mark Load Coordinates by Address
 -(void)setupCoordsUsingAddress:(NSString *)address {
@@ -128,8 +132,6 @@ static CGFloat userPosZoomLon = 0.2;
         [self.locationManager stopUpdatingLocation];
     }
 }
-
-
 
 #pragma mark Center Map At the User's Location
 
