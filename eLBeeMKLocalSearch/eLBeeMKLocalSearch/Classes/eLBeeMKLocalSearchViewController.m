@@ -1,5 +1,5 @@
 //
-//  StoresMap.m
+//  eLBeeMKLocalSearchViewController.m
 //  eLBee
 //
 //  Created by Jonathon Hibbard on 1/28/13.
