@@ -9,3 +9,8 @@ Hope this helps :neckbeard:
 ### ScreenShots
 
 ![ScreenShot 1](/screenshots/screenshot1.png) . ![ScreenShot 2](/screenshots/screenshot2.png) . ![ScreenShot 3](/screenshots/screenshot3.png)
+
+
+## License
+
+This code is distributed under the terms and conditions of the [MIT license](LICENSE).
